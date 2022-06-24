@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Email Signature</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+ .content-div {
+    display: flex;
+    align-items: center;
+    padding: 5% 8% 0;
+    gap: 5%;
+    justify-content: flex-start;
+}
+   h1,h3,h4,a{
+    font-family: 'Lato', sans-serif;
+   } 
+   
+.main-div {
+    background-image: url(assets/img/BG.png);
+    background-size: cover;
+    margin: 2% 10%;
+    border-radius: 220px 0px 224px 0;
+}
+@media only screen and (max-width: 900px) {
+    .main-div {
+    background-image: url("assets/img/BG-sm.png");
+    padding-bottom: 13%;
+    }
+    .content-div {
+    display:block;
+    }
+    .content-div img{
+        width: 70%;
+        margin: auto;
+    }
+    .text-content{
+        text-align: center;
+
+    }
+}
+</style>
+<body style="margin: 0;">
+    <!-- <div class="main-div"  style="
+                    width: 50%;
+                    background-color: aqua;
+                    margin: 5% auto;"> -->
+       
+       <div class="main-div">
+        
+        <div class="content-div">
+            <div style="text-align: center;">
+                <img src="assets/img/profile.png" alt="profile" width="80%">
+            </div>
+            <div class="text-content">
+                <h1 style="margin: 12px 0 13px; font-size: 5.5vw;">Mehdi</h1>
+                <h3 style="margin: 0px 0 11px; font-size: 2.5vw;">Product Designer</h3>
+                <h4 style="margin: 0px 0 15px; font-size: 2.5vw;">+1.647.471.5336</h4>
+                <h4 style="margin: 0px 0 15px; font-size: 2.6vw;">Curious about Off2Class?</h4>
+                <a href="#" style="margin: 0px 0 15px; font-size: 2.7vw;font-weight: 700;color: black;">Watch this 1-minute video</a>
+            </div>
+        </div>
+        <div style="text-align: center; padding: 0% 13% 3%;" class="logo-div">
+            <img src="assets/img/logo.png" width="95%" alt="logo">
+        </div>
+       </div>
+    <!-- </div> -->
+    
+</body>
+</html>
